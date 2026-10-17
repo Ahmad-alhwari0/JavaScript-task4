@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storage Playground</title>
+  </head>
+  <body>
+    <h1>Storage Playground</h1>
+
+    <label for="key">Key:</label>
+    <input id="key" type="text" placeholder="Enter key" />
+
+    <label for="value">Value:</label>
+    <input id="value" type="text" placeholder="Enter value" />
+
+    <button id="save">Save</button>
+    <button id="read">Read</button>
+    <button id="remove">Remove Item</button>
+    <button id="clear">Clear All</button>
+
+    <h2>Storage Information</h2>
+    <p>Number of items: <span id="count">0</span></p>
+
+    <h2>Current Contents</h2>
+    <ul id="contents"></ul>
+
+    <p id="message"></p>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
